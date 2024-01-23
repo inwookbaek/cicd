@@ -1,0 +1,8 @@
+git init
+git remote add origin  https://github.com/inwookbaek/cicd.git
+git remove -v
+git pull origin master
+git add .
+git commit -m "first commit"
+git push -u origin master --force
+
