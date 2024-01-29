@@ -11,6 +11,6 @@ public class DemoController {
     @GetMapping("/")
     @ResponseBody
     public String hello() {
-        return "{'id':'gilbaek', 'name':'백인욱'}";
+        return "{'id':'gilbaek', 'name':'jenkins - CICD'}";
     }
 }
