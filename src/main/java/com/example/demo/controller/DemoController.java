@@ -13,4 +13,10 @@ public class DemoController {
     public String hello() {
         return "{'id':'gilbaek', 'name':'jenkins - CICD', 'port':'8999'}";
     }
+
+    @GetMapping("/hi")
+    @ResponseBody
+    public String hi() {
+        return "Hi!!!!!!!!!!!!!!!!";
+    }
 }
