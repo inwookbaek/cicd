@@ -28,7 +28,7 @@ public class DemoController {
 
     @GetMapping("/hi3")
     @ResponseBody
-    public String hi2() {
+    public String hi3() {
         return "Hi!!! 33333333333333333";
     }
 }
