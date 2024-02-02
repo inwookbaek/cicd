@@ -25,4 +25,10 @@ public class DemoController {
     public String hi2() {
         return "Hi!!! 2222222222222222";
     }
+
+    @GetMapping("/hi3")
+    @ResponseBody
+    public String hi2() {
+        return "Hi!!! 33333333333333333";
+    }
 }
