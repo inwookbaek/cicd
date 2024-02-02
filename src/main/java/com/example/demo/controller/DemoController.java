@@ -14,9 +14,15 @@ public class DemoController {
         return "{'id':'gilbaek', 'name':'jenkins - CICD', 'port':'8999'}";
     }
 
-    @GetMapping("/hi")
+    @GetMapping("/hi1")
     @ResponseBody
-    public String hi() {
-        return "Hi!!!33333333333333332";
+    public String hi1() {
+        return "Hi!!! 1111111111111111";
+    }
+
+    @GetMapping("/hi2")
+    @ResponseBody
+    public String hi2() {
+        return "Hi!!! 2222222222222222";
     }
 }
