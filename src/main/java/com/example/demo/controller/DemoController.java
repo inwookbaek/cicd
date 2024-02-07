@@ -31,4 +31,10 @@ public class DemoController {
     public String hi3() {
         return "Hi!!! 33333333333333333";
     }
+
+    @GetMapping("/hi4")
+    @ResponseBody
+    public String hi4() {
+        return "Hi!!! 444444444444444444";
+    }
 }
